@@ -1,0 +1,8 @@
+venv
+frivenmeld.egg-info
+.coverage
+__pycache__
+docker.env.bak
+local_env.sh.bak
+.DS_Store
+.*.swp
