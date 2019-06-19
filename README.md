@@ -4,8 +4,9 @@ Doximity Coding Challenge Submission
 
 - Consumes data from two source, merges and writes to mysql
 - Throttles memory usage using maxsize on input queues
-- Consumers work in their own threads
+- Multi-threaded - Consumers work in their own threads and feed data to main thread
 - Scalable to hundreds of workers by giving each worker a range of data to consume
+- Required run-time: less than one hour.  Actual run-time: 50 seconds.
 
 ## How to run the job
 
@@ -23,7 +24,7 @@ Doximity Coding Challenge Submission
     I've set up the target mysql server with the same credentials
     so both sets of username/password are the same. Optionally,
     you can create the table in your own mysql server using
-    the scripts in the schema/ folder. As a final option,
+    the scripts in the **schema/** folder. As a final option,
     you can leave the WRITE vars alone, and run the python
     script in dryrun mode.
 
