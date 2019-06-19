@@ -9,9 +9,9 @@ Doximity Coding Challenge Submission
 
 ## How to run the job
 
-----------------------
-1. Configuration
-----------------------
+---
+### Configuration
+---
     First, Set up environment variables in one or both of these two files,
     depending on if you want to run in docker or in a virtual env.
 
@@ -28,9 +28,9 @@ Doximity Coding Challenge Submission
     script in dryrun mode.
 
 
-----------------------
-2. Build Virtual Env or Docker Image
-----------------------
+---
+### Build Virtual Env or Docker Image
+---
 
     2a. Run setup.sh to set up the virtual env.
 
@@ -46,9 +46,9 @@ OR
         cd ./app
         ./docker_build.sh
 
------------------------
-3. Run the app in Virtual Env or Docker
------------------------
+---
+### Run the app in Virtual Env or Docker
+---
 
     3a. Run in a virtual env
 
@@ -61,9 +61,9 @@ OR
         ./docker_run.sh
 
 
---------------------------
+---
 Appendix A - Running on EC2
---------------------------
+---
 
 sudo yum install git
 git clone https://gitlab.com/rudeserver/data-engineering
