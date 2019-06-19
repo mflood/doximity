@@ -66,6 +66,7 @@ OR
 Appendix A - Running on EC2
 ---
 
+```
 sudo yum install git
 git clone https://gitlab.com/rudeserver/data-engineering
 cd data-engineering
@@ -80,3 +81,4 @@ cd app/
 sudo ./docker_build.sh
 vim docker.env    # <- configure docker.env
 sudo ./docker_run.sh
+```
