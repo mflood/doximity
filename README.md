@@ -61,7 +61,6 @@ OR
 
         ./docker_run.sh
 
-
 ---
 Appendix A - Running on EC2
 ---
