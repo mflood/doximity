@@ -1,6 +1,6 @@
 # frivenmeld
 
-Doximity Coding Challenge Submission
+This is my submission for the Doximity Coding Challenge
 
 - Consumes data from two source, merges and writes to mysql
 - Throttles memory usage using maxsize on input queues
